@@ -1,7 +1,8 @@
 # Mailbot
 
 A personal IMAP email automation system that runs continuously, filtering, routing, and responding to emails as they arrive.
-![Mailbot][(https://repository-images.githubusercontent.com/1138596597/2ad8dbf3-a545-4c62-b873-9f8d106f7c2f)
+
+<img alt="Mailbot Inbox Zero" src="https://repository-images.githubusercontent.com/1138596597/2ad8dbf3-a545-4c62-b873-9f8d106f7c2f" style="width: 100%; height: auto;" />
 
 ## Why
 
