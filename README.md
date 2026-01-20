@@ -75,7 +75,7 @@ The daemon (`runloop.py`) automatically reconnects on connection failures using 
 Edit `config_data.py` for your servers and addresses. Edit `config_queries.py` to define your own rules. The query DSL reads naturally:
 
 ```python
-Match(AllOf(Froms("@workplace.edu"), Not(Tos("@private.com"))))
+Match(AllOf(From("@workplace.edu"), Not(To("@private.com"))))
 ```
 
 ## Tests
