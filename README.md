@@ -20,7 +20,7 @@ I wanted help with inbox zero. This daemon monitors my inbox via IMAP IDLE and a
 - `config_queries.py` — Rules wiring email patterns to handlers
 - `query_dsl.py` — DSL for building IMAP SEARCH queries
 - `handlers.py` — Handler factories (WorkEmail, Obnoxious, Proxy, Move, etc.)
-- `runonce.py` — Process inbox until first failure (loops with IMAP IDLE
+- `runonce.py` — Process inbox until first failure (loops with IMAP IDLE)
 - `runloop.py` — Daemon entry point (runs forever with exponential retry)
 
 Supporting modules: `email_utils.py`, `http_utils.py`, `html_utils.py`, `imap_utils.py`, `proxy_utils.py`
